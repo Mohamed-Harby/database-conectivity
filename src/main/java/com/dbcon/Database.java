@@ -15,15 +15,6 @@ public class Database {
         }
     }
 
-
-//    public Database() {
-//        try {
-//            DbConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/iti", "root", "root");
-//            DbConnection.setAutoCommit(false);
-//        } catch (SQLException ex) {
-//            System.err.println(ex.getMessage());
-//        }
-//    }
     public static Connection getDbConnection() {
         return DbConnection;
     }
