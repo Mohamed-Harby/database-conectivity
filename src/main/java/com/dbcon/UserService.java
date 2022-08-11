@@ -5,10 +5,10 @@ import java.util.Optional;
 
 public interface UserService {
 
-    User addUser(User user) ;
+    User addUser(User user);
     User updateUser(String id ,User user);
-    boolean deleteUser(String id);
-    User getUser(String id) ;
+    boolean deleteUser(int id);
+    User getUser(int id) ;
     List<User> getAllUser() ;
     Optional<User> getUserByPhone();
 
